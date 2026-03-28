@@ -16,14 +16,6 @@
         "rank":  "A"
     },
     {
-        "mId":  "130",
-        "pName":  "TOFU",
-        "acType":  "FA-18C_hornet",
-        "score":  100,
-        "time":  -7673.1,
-        "rank":  "S"
-    },
-    {
         "mId":  "121",
         "pName":  "TOFU",
         "acType":  "F-16C_50",
@@ -525,6 +517,14 @@
         "acType":  "F-16C_50",
         "score":  10,
         "time":  90.14,
+        "rank":  "S"
+    },
+    {
+        "mId":  "130",
+        "pName":  "TOFU",
+        "acType":  "FA-18C_hornet",
+        "score":  100,
+        "time":  60.44,
         "rank":  "S"
     }
 ]
