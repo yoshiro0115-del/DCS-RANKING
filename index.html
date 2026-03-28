@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>DCS TRAINING SERVER RANKING</title>
+    <style>
+        /* 背景・全体設定 */
+        body { 
+            font-family: 'Segoe UI', sans-serif; 
+            margin: 0;
+            padding: 20px;
+            color: #00ffcc;
+            background: linear-gradient(rgba(13, 15, 18, 0.8), rgba(13, 15, 18, 0.8)), url('bg.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        /* ヘッダー修正：文字を2段に */
+        header {
+            text-align: center;
+            padding: 20px 0;
+            margin-bottom: 30px;
+        }
+
+        .server-logo {
+            height: 180px;
+            width: auto;
+            filter: drop-shadow(0 0 10px rgba(0, 255, 204, 0.5));
+            margin-bottom: 15px;
+        }
+
+        .server-name {
+            font-size: 18px;
+            color: #aaa; /* サーバー名は少し落ち着いた色に */
+            letter-spacing: 4px;
+            margin: 0;
+            text-transform: uppercase;
+        }
+
+        .main-title {
+            font-size: 32px; /* ランキング文字を大きく強調 */
+            color: #00ffcc;
+            letter-spacing: 8px;
+            margin: 5px 0;
+            text-shadow: 0 0 15px rgba(0, 255, 204, 0.8);
+            font-weight: bold;
+        }
+
+        /* コンテンツエリア */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: rgba(20, 25, 30, 0.85);
+            padding: 30px;
+            border-radius: 10px;
+            border: 1px solid #333;
+        }
+
+        .controls { margin-bottom: 25px; }
+        label { font-weight: bold; margin-right: 10px; }
+        select { 
+            padding: 10px; 
+            background: #000; 
+            color: #00ffcc; 
+            border: 1px solid #00ffcc; 
+            font-size: 16px;
+            outline: none;
+        }
+
+        table { width: 100%; border-collapse: collapse; }
+        th { 
+            background: #252a31; 
+            color: #ffcc00; 
+            padding: 15px; 
+            border-bottom: 2px solid #00ffcc;
+            font-size: 13px;
+        }
+        td { padding: 12px; border-bottom: 1px solid #333; text-align: center; }
+        
+        .rank-S { color: #ffcc00; font-weight: bold; text-shadow: 0 0 8px #ffcc00; }
+        .rank-A { color: #fff; font-weight: bold; }
+        tr:hover { background: rgba(0, 255, 204, 0.1); }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="logo.png" alt="Server Logo" class="server-logo">
+        <p class="server-name">DCS TRAINING SERVER</p>
+        <h1 class="main-title">PILOT RANKING</h1>
+    </header>
+
+    <div class="container">
+        <div class="controls">
+            <label>MISSION SELECT:</label>
+            <select id="missionSelect" onchange="updateTable()"></select>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>POS</th>
+                    <th>PILOT</th>
+                    <th>AIRCRAFT</th>
+                    <th>SCORE</th>
+                    <th>TIME</th>
+                    <th>RANK</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody"></tbody>
+        </table>
+    </div>
+
+    <script>
+    // 1. ミッションIDと名前の対応表（お使いのミッションに合わせて追加・修正してください）
+    const missionNames = {
+
+
+    "120" : "Short Flight",
+    "121" : "Formation Flight 1",
+    "122" : "Formation Flight 2",
+    "123" : "Formation Flight 3",
+    "124" : "Refueling",
+    "125" : "Low-alt Flight Time Attack 1",
+    "126" : "Low-alt Flight Time Attack 2",
+    "127" : "Low-alt Flight Time Attack 3",
+    "128" : "Low-alt Flight Time Attack 4",
+
+    "130" : "Baloon Shooting 1",
+    "131" : "Baloon Shooting 2",
+    "132" : "Baloon Shooting 3",
+    "133" : "Baloon Shooting 4",
+    "134" : "Baloon Shooting 5",
+    "135" : "Ground Shooting 1",
+    "136" : "Ground Shooting 2",
+    "137" : "Ground Shooting 3",
+    "138" : "Ground Shooting 4",
+
+    "140" : "AREA Shooting 1",
+    "141" : "AREA Shooting 2",
+    "142" : "AREA Shooting 3",
+    "143" : "AREA Shooting 4",
+    "144" : "AREA Shooting 5",
+    "145" : "AREA Shooting 6",
+    "146" : "AREA Shooting 7",
+    "147" : "AREA Shooting 8",
+    "148" : "AREA Shooting 9",
+
+    "150" : "ACM vs F-86F",
+    "151" : "ACM vs F-4E",
+    "152" : "ACM vs F-5E",
+    "153" : "ACM vs F-16C",
+    "154" : "ACM vs F/A-18C",
+    "155" : "ACM vs F-14B",
+    "156" : "ACM vs F-15C",
+    "157" : "ACM vs Mig-29S",
+
+    "160" : "C-BFM vs F-4E",
+    "161" : "C-BFM vs F-5E",
+    "162" : "C-BFM vs F-16C",
+    "163" : "C-BFM vs F-14B",
+    "164" : "C-BFM vs F-15C",
+    "165" : "C-BFM vs Su-27",
+
+
+    };
+
+    let dbData = [];
+
+    fetch('ranking_db.json')
+        .then(response => response.json())
+        .then(data => {
+            dbData = data;
+            
+            // 2. IDを抽出して「数値として」昇順に並び替える
+            const missionIds = [...new Set(data.map(item => item.mId))]
+                .sort((a, b) => Number(a) - Number(b));
+
+            const select = document.getElementById('missionSelect');
+            
+            missionIds.forEach(id => {
+                let opt = document.createElement('option');
+                opt.value = id;
+                // 3. 名前があれば表示、なければIDを表示
+                const name = missionNames[id] ? `${id}: ${missionNames[id]}` : `Mission ID: ${id}`;
+                opt.innerHTML = name;
+                select.appendChild(opt);
+            });
+            updateTable();
+        });
+
+function updateTable() {
+            const mId = document.getElementById('missionSelect').value;
+            const body = document.getElementById('tableBody');
+            body.innerHTML = "";
+
+            let filtered = dbData.filter(d => d.mId === mId);
+
+            // ソート処理 (124: Refueling は長い順、それ以外は短い順)
+            if (mId === "124") {
+                filtered.sort((a, b) => b.score - a.score || b.time - a.time);
+            } else {
+                filtered.sort((a, b) => b.score - a.score || a.time - b.time);
+            }
+
+            filtered.forEach((d, i) => {
+                body.innerHTML += `<tr>
+                    <td>${i+1}</td>
+                    <td style="font-weight:bold;">${d.pName}</td>
+                    <td>${d.acType}</td> <td>${d.score}</td>
+                    <td>${d.time.toFixed(2)}s</td>
+                    <td class="rank-${d.rank}">${d.rank}</td>
+                </tr>`;
+            });
+        }
+    </script>
+</body>
+</html>
