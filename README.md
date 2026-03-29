@@ -3,11 +3,6 @@
 DCS World 向けトレーニングサーバーの公式リポジトリです。
 フライト結果の自動集計、Discord通知、および専用MODの配布を行っています。
 
-# ✈️ TOFU Training Server - Flight Ranking System
-
-DCS World 向けトレーニングサーバーの公式リポジトリです。
-フライト結果の自動集計、Discord通知、および専用MOD・ニーボードの配布を行っています。
-
 ---
 
 ## 📢 Community & Support
