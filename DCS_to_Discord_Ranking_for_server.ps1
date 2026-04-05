@@ -22,6 +22,9 @@ $missionMap = @{
     "150" = "ACM vs F-86F"; "151" = "ACM vs F-4E"; "152" = "ACM vs F-5E"; "153" = "ACM vs F-16C"; "154" = "ACM vs F/A-18C"
     "155" = "ACM vs F-14B"; "156" = "ACM vs F-15C"; "157" = "ACM vs Mig-29S"; "160" = "C-BFM vs F-4E"; "161" = "C-BFM vs F-5E"
     "162" = "C-BFM vs F-16C"; "163" = "C-BFM vs F-14B"; "164" = "C-BFM vs F-15C"; "165" = "C-BFM vs Su-27"
+    "200" = "DACT 800-10-3"; 
+    "201" = "DACT 800-9-5"
+
 }
 
 function Get-DB {
@@ -44,6 +47,35 @@ Write-Host "--- DCS Ranking System (Ultimate Repair) Start ---" -ForegroundColor
 
 Get-Content $logFile -Wait -Tail 0 | ForEach-Object {
     $line = $_
+
+    # --- DACT_RESULT の処理 (追記部分) ---
+    if ($line -match "\[DACT\]") {
+        if ($line -match "ID:(?<id>.*?) \| Winner:(?<winner>.*?) \| Loser:(?<loser>.*?) \| Time:(?<time>.*?) \[END\]") {
+            $mIdStr = $Matches['id'].Trim()
+            $winner = $Matches['winner'].Trim()
+            $loser  = $Matches['loser'].Trim()
+            $pTime  = $Matches['time'].Trim()
+            
+            $mName = if ($missionMap.ContainsKey($mIdStr)) { $missionMap[$mIdStr] } else { "DACT Mission $mIdStr" }
+
+            $dactPayload = @{ 
+                embeds = @(@{ 
+                    title = "DACT TRAINING COMPLETED"
+                    color = 65280  # 緑色
+                    fields = @(
+                        @{ name = "Mission"; value = "``$mName``"; inline = $true },
+                        @{ name = "Clear Time"; value = "``$pTime sec``"; inline = $true },
+                        @{ name = "Winner"; value = "``$winner``"; inline = $false },
+                        @{ name = "Loser"; value = "``$loser``"; inline = $false }
+                    )
+                    footer = @{ text = "Training Record - Results sent to Discord" } 
+                }) 
+            } | ConvertTo-Json -Depth 10 -Compress
+
+            Invoke-RestMethod -Uri $webhookPersonal -Method Post -Body ([System.Text.Encoding]::UTF8.GetBytes($dactPayload)) -ContentType "application/json; charset=utf-8"
+        }
+        return
+    }
 
     if ($line -match "\[BVR_RESULT\]") {
         if ($line -match "ID:(?<id>.*?) \| Time:(?<time>.*?) \| Pilots:(?<pilots>.*?) \[END\]") {

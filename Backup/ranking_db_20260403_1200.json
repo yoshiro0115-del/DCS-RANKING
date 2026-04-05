@@ -76,7 +76,7 @@
         "pName":  "TOFU",
         "acType":  "F-16C_50",
         "score":  100,
-        "time":  62.57,
+        "time":  64.22,
         "rank":  "S"
     },
     {
@@ -388,7 +388,7 @@
         "pName":  "TOFU",
         "acType":  "F-15C",
         "score":  100,
-        "time":  284.3,
+        "time":  301.53,
         "rank":  "S"
     },
     {
@@ -574,45 +574,5 @@
         "score":  100,
         "time":  177.32,
         "rank":  "S"
-    },
-    {
-        "mId":  "164",
-        "pName":  "TOFU",
-        "acType":  "F-16C_50",
-        "score":  10,
-        "time":  45.71,
-        "rank":  "S"
-    },
-    {
-        "mId":  "124",
-        "pName":  "monorunj",
-        "acType":  "F-16C_50",
-        "score":  93,
-        "time":  188.84,
-        "rank":  "A"
-    },
-    {
-        "mId":  "124",
-        "pName":  "TOFU",
-        "acType":  "F-16C_50",
-        "score":  75,
-        "time":  89.7,
-        "rank":  "B"
-    },
-    {
-        "mId":  "151",
-        "pName":  "taktak1956",
-        "acType":  "FA-18C_hornet",
-        "score":  0,
-        "time":  426.2,
-        "rank":  "D"
-    },
-    {
-        "mId":  "150",
-        "pName":  "taktak1956",
-        "acType":  "FA-18C_hornet",
-        "score":  0,
-        "time":  390.6,
-        "rank":  "D"
     }
 ]

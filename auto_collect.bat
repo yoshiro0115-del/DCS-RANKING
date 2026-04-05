@@ -14,7 +14,7 @@ type nul > "%TFILE%"
 
 :: 一時的なPowerShellスクリプトを作成（ここでBOMなしUTF-8の処理を定義）
 echo $enc = New-Object System.Text.UTF8Encoding($false) > "%PS_SCRIPT%"
-echo Get-Content -Path '%SLOG%' -Wait -Tail 0 ^| Where-Object { $_ -match 'RANKING^|BVR_RESULT^|SD_RESULT' } ^| ForEach-Object { >> "%PS_SCRIPT%"
+echo Get-Content -Path '%SLOG%' -Wait -Tail 0 ^| Where-Object { $_ -match 'RANKING^|BVR_RESULT^|SD_RESULT^|DACT' } ^| ForEach-Object { >> "%PS_SCRIPT%"
 echo     $line = $_ + [Environment]::NewLine >> "%PS_SCRIPT%"
 echo     [System.IO.File]::AppendAllText('%TFILE%', $line, $enc) >> "%PS_SCRIPT%"
 echo     [System.IO.File]::AppendAllText('%AFILE%', $line, $enc) >> "%PS_SCRIPT%"

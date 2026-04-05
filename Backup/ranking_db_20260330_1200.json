@@ -76,7 +76,7 @@
         "pName":  "TOFU",
         "acType":  "F-16C_50",
         "score":  100,
-        "time":  62.57,
+        "time":  64.31,
         "rank":  "S"
     },
     {
@@ -91,9 +91,9 @@
         "mId":  "120",
         "pName":  "TOFU",
         "acType":  "F-14B",
-        "score":  100,
-        "time":  285.4,
-        "rank":  "S"
+        "score":  0,
+        "time":  626.32,
+        "rank":  "D"
     },
     {
         "mId":  "151",
@@ -388,7 +388,7 @@
         "pName":  "TOFU",
         "acType":  "F-15C",
         "score":  100,
-        "time":  284.3,
+        "time":  301.53,
         "rank":  "S"
     },
     {
@@ -550,69 +550,5 @@
         "score":  51,
         "time":  111.93,
         "rank":  "C"
-    },
-    {
-        "mId":  "151",
-        "pName":  "TOFU",
-        "acType":  "F-14B",
-        "score":  100,
-        "time":  174.74,
-        "rank":  "S"
-    },
-    {
-        "mId":  "163",
-        "pName":  "TOFU",
-        "acType":  "F-16C_50",
-        "score":  15,
-        "time":  75.12,
-        "rank":  "S"
-    },
-    {
-        "mId":  "152",
-        "pName":  "TOFU",
-        "acType":  "F-16C_50",
-        "score":  100,
-        "time":  177.32,
-        "rank":  "S"
-    },
-    {
-        "mId":  "164",
-        "pName":  "TOFU",
-        "acType":  "F-16C_50",
-        "score":  10,
-        "time":  45.71,
-        "rank":  "S"
-    },
-    {
-        "mId":  "124",
-        "pName":  "monorunj",
-        "acType":  "F-16C_50",
-        "score":  93,
-        "time":  188.84,
-        "rank":  "A"
-    },
-    {
-        "mId":  "124",
-        "pName":  "TOFU",
-        "acType":  "F-16C_50",
-        "score":  75,
-        "time":  89.7,
-        "rank":  "B"
-    },
-    {
-        "mId":  "151",
-        "pName":  "taktak1956",
-        "acType":  "FA-18C_hornet",
-        "score":  0,
-        "time":  426.2,
-        "rank":  "D"
-    },
-    {
-        "mId":  "150",
-        "pName":  "taktak1956",
-        "acType":  "FA-18C_hornet",
-        "score":  0,
-        "time":  390.6,
-        "rank":  "D"
     }
 ]
