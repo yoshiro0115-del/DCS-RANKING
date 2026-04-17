@@ -614,5 +614,13 @@
         "score":  0,
         "time":  390.6,
         "rank":  "D"
+    },
+    {
+        "mId":  "138",
+        "pName":  "TOFU",
+        "acType":  "AH-64D_BLK_II",
+        "score":  100,
+        "time":  173.66,
+        "rank":  "S"
     }
 ]
