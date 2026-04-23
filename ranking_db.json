@@ -304,14 +304,6 @@
         "rank":  "A"
     },
     {
-        "mId":  "140",
-        "pName":  "Integral",
-        "acType":  "F-15ESE",
-        "score":  0,
-        "time":  519.79,
-        "rank":  "D"
-    },
-    {
         "mId":  "151",
         "pName":  "Integral",
         "acType":  "F-15ESE",
@@ -621,6 +613,14 @@
         "acType":  "AH-64D_BLK_II",
         "score":  100,
         "time":  173.66,
+        "rank":  "S"
+    },
+    {
+        "mId":  "161",
+        "pName":  "monorunj",
+        "acType":  "F-16C_50",
+        "score":  20,
+        "time":  0,
         "rank":  "S"
     }
 ]
