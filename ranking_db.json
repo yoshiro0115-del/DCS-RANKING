@@ -76,7 +76,7 @@
         "pName":  "TOFU",
         "acType":  "F-16C_50",
         "score":  100,
-        "time":  0.01,
+        "time":  64.88,
         "rank":  "S"
     },
     {
@@ -372,7 +372,7 @@
         "pName":  "TOFU",
         "acType":  "F-16C_50",
         "score":  15,
-        "time":  0,
+        "time":  64.73,
         "rank":  "S"
     },
     {
@@ -620,7 +620,7 @@
         "pName":  "monorunj",
         "acType":  "F-16C_50",
         "score":  20,
-        "time":  0,
+        "time":  59.51,
         "rank":  "S"
     },
     {
