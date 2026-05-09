@@ -200,14 +200,6 @@
         "rank":  "C"
     },
     {
-        "mId":  "128",
-        "pName":  "TOFU",
-        "acType":  "FA-18C_hornet",
-        "score":  88,
-        "time":  280.28,
-        "rank":  "A"
-    },
-    {
         "mId":  "153",
         "pName":  "Zuikaku",
         "acType":  "F-15ESE",
@@ -238,14 +230,6 @@
         "score":  87,
         "time":  260.86,
         "rank":  "A"
-    },
-    {
-        "mId":  "128",
-        "pName":  "TOFU",
-        "acType":  "F-14B",
-        "score":  100,
-        "time":  250.9,
-        "rank":  "S"
     },
     {
         "mId":  "154",
@@ -437,14 +421,6 @@
         "acType":  "FA-18C_hornet",
         "score":  18,
         "time":  50.11,
-        "rank":  "S"
-    },
-    {
-        "mId":  "128",
-        "pName":  "TOFU",
-        "acType":  "F-16C_50",
-        "score":  100,
-        "time":  245.31,
         "rank":  "S"
     },
     {
