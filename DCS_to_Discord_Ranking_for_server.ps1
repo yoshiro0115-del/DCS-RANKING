@@ -22,8 +22,8 @@ $missionMap = @{
     "155" = "ACM vs F-14B"; "156" = "ACM vs F-15C"; "157" = "ACM vs Mig-29S";
     "160" = "C-BFM vs F-4E"; "161" = "C-BFM vs F-5E"; "162" = "C-BFM vs F-16C"; "163" = "C-BFM vs F-14B"; "164" = "C-BFM vs F-15C";
     "165" = "C-BFM vs Su-27"; "168" = "C-BFM vs HAWK";
-    "194" = "TOT_Bombing"; 
-    "200" = "DACT 800-10-3"; "201" = "DACT 800-9-5"; "202" = "SCRAMBLE"
+    "190" = "Diffence CAS"; "192" = "JTAC CAS";"193" = "SCAR"; "194" = "TOT_Bombing";  "195" = "Support SEAD";
+    "200" = "DACT 800-10-3"; "201" = "DACT 800-9-5"; "202" = "SCRAMBLE" ; "203" = "Cruse Missile intercept";
     
 
 }
