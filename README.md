@@ -18,7 +18,7 @@ DCS World 向けトレーニングサーバーの公式リポジトリです。
 ## 📦 Downloads (MOD & KNEEBOARD)
 配布用自作MODや、機内で確認できるニーボードは以下の各フォルダから**最新のバージョン**をダウンロードしてください。
 
-### 📋 Kneeboards
+### 📋 DTC datas
 本サーバーで使用できるDTCです。訓練ミッションでの設定が楽になります。
 👉 **[KNEEBOARD配布フォルダを開く](https://github.com/yoshiro0115-del/DCS-RANKING/tree/main/DTC)**
 
