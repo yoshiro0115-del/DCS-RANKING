@@ -126,5 +126,13 @@
         "score":  20,
         "time":  0,
         "rank":  "S"
+    },
+    {
+        "mId":  "161",
+        "pName":  "TOFU",
+        "acType":  "F-16C_50",
+        "score":  15,
+        "time":  0,
+        "rank":  "S"
     }
 ]
