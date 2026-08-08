@@ -20,7 +20,7 @@ DCS World 向けトレーニングサーバーの公式リポジトリです。
 
 ### 📋 DTC datas
 本サーバーで使用できるDTCです。訓練ミッションでの設定が楽になります。
-👉 **[KNEEBOARD配布フォルダを開く](https://github.com/yoshiro0115-del/DCS-RANKING/tree/main/DTC)**
+👉 **[DTC配布フォルダを開く](https://github.com/yoshiro0115-del/DCS-RANKING/tree/main/DTC)**
 
 ### 📋 Kneeboards
 各機体で使用できる専用のニーボード画像・PDFです。
