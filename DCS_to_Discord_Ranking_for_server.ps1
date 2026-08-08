@@ -12,12 +12,15 @@ Write-Host "--------------------------------------------------" -ForegroundColor
 
 # --- ミッション名変換リスト（添付ファイルを100%維持） ---
 $missionMap = @{
-    "120" = "Short Flight"; "121" = "Formation Flight 1"; "122" = "Formation Flight 2"; "123" = "Formation Flight 3"; "124" = "Refueling";
-    "125" = "Low-alt Flight Time Attack 1"; "126" = "Low-alt Flight Time Attack 2"; "127" = "Low-alt Flight Time Attack 3"; "128" = "TOT-Flight"; 
-    "130" = "Baloon Shooting 1"; "131" = "Baloon Shooting 2"; "132" = "Baloon Shooting 3"; "133" = "Baloon Shooting 4"; "134" = "Baloon Shooting 5";
-    "135" = "Ground Shooting 1"; "136" = "Ground Shooting 2"; "137" = "Ground Shooting 3"; "138" = "Ground Shooting 4";
-    "140" = "Acro Loop"; "141" = "Acro Skewed loop"; "142" = "Acro Aileron roll"; "143" = "Acro Barrel roll"; "144" = "Acro Knife edge";
-    "145" = "Acro Tail slide"; "146" = "Acro Hammerhead"; "147" = "Acro Rolling combo"; "148" = "Acro Continuous Demo";
+    "120" = "Short Flight"; "122" = "Formation Flight 1"; "123" = "Formation Flight 2"; "121" = "WP pass Flight"; "124" = "Refueling";
+    "125" = "Low-alt Flight Time Attack 1"; "126" = "Low-alt Flight Time Attack 2"; "127" = "TOT Flight 1"; "128" = "TOT Flight 2"; 
+
+    "130" = "Heli Shooting 1"; "131" = "Heli Shooting 2"; "132" = "Heli Shooting 3"; "133" = "Transporter Shooting 1"; "134" = "Transporter Shooting 2";
+    "135" = "Fighter Shooting 1"; "136" = "Fighter Shooting 2"; "137" = "Fighter Shooting 3"; "138" = "Fighter Shooting 4";
+
+    "140" = "Shooting G-TGT"; "141" = "Shooting Line of trucks"; "142" = "Shooting Running Technicals"; "143" = "Shooting AAA"; "144" = "Shooting SAM";
+    "145" = "Shooting boats"; "146" = "Shooting TGT along river"; "147" = "Airport Attack"; "148" = "SEAD";
+
     "150" = "ACM vs F-86F"; "151" = "ACM vs F-4E"; "152" = "ACM vs F-5E"; "153" = "ACM vs F-16C"; "154" = "ACM vs F/A-18C"
     "155" = "ACM vs F-14B"; "156" = "ACM vs F-15C"; "157" = "ACM vs Mig-29S";
     "160" = "C-BFM vs F-4E"; "161" = "C-BFM vs F-5E"; "162" = "C-BFM vs F-16C"; "163" = "C-BFM vs F-14B"; "164" = "C-BFM vs F-15C";
