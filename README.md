@@ -1,7 +1,7 @@
 # ✈️ TOFU's  DCS Training Server - Flight Ranking System
 
 DCS World 向けトレーニングサーバーの公式リポジトリです。
-フライト結果の自動集計、Discord通知、およびMODの配布を行っています。
+フライト結果の自動集計、Discord通知、サーバーミッション用ファイルおよびMODの配布を行っています。
 
 ---
 ## 📢 Community & Support
@@ -15,7 +15,7 @@ DCS World 向けトレーニングサーバーの公式リポジトリです。
 *(※フライト終了後、数分以内に自動更新されます)*
 ---
 
-## 📦 Downloads (MOD & KNEEBOARD)
+## 📦 Downloads (DTC & KNEEBOARD & MOD)
 配布用自作MODや、機内で確認できるニーボードは以下の各フォルダから**最新のバージョン**をダウンロードしてください。
 
 ### 📋 DTC datas
