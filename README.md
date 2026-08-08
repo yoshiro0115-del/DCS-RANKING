@@ -4,31 +4,31 @@ DCS World 向けトレーニングサーバーの公式リポジトリです。
 フライト結果の自動集計、Discord通知、およびMODの配布を行っています。
 
 ---
-
 ## 📢 Community & Support
 サーバーの最新情報、不具合報告、パイロット同士の交流は Discord で行っています。
 👉 **[公式 Discord サーバーに参加する](https://discord.gg/HXM9n2Ge4v)**
-
 ---
 
 ## 📊 Live Ranking
 最新のフライトランキングは以下の特設ページからリアルタイムで確認できます：
 👉 **[オンラインランキングを表示する](https://yoshiro0115-del.github.io/DCS-RANKING/)**
 *(※フライト終了後、数分以内に自動更新されます)*
-
 ---
 
 ## 📦 Downloads (MOD & KNEEBOARD)
 配布用自作MODや、機内で確認できるニーボードは以下の各フォルダから**最新のバージョン**をダウンロードしてください。
 
-### 🛠️ Dedicated MODs
-ターゲットバルーンや射撃標的等のカスタムMODです。
-👉 **[MOD配布フォルダを開く](https://github.com/yoshiro0115-del/DCS-RANKING/tree/main/MOD)**
+### 📋 Kneeboards
+本サーバーで使用できるDTCです。訓練ミッションでの設定が楽になります。
+👉 **[KNEEBOARD配布フォルダを開く](https://github.com/yoshiro0115-del/DCS-RANKING/tree/main/DTC)**
 
 ### 📋 Kneeboards
 各機体で使用できる専用のニーボード画像・PDFです。
 👉 **[KNEEBOARD配布フォルダを開く](https://github.com/yoshiro0115-del/DCS-RANKING/tree/main/KNEEBOARD)**
 
+### 🛠️ Dedicated MODs
+ターゲットバルーンや射撃標的等のカスタムMODです。
+👉 **[MOD配布フォルダを開く](https://github.com/yoshiro0115-del/DCS-RANKING/tree/main/MOD)**
 > [!TIP]
 > **MOD導入方法:**
 > 1. 上記リンクから最新の `.zip` またはファイルをクリック。
