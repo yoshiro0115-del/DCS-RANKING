@@ -41,54 +41,10 @@
                                                          },
                                             "Airdromes": [ {
                                                                             "alt": 0,
-                                                                             "id": "ARD2",
-                                                                           "name": "Mozdok",
-                                                                           "note": "",
-                                                                            "num": "ARD1",
-                                                                        "runways": [ {
-                                                                                            "channel": 22,
-                                                                                          "direction": -97.236068,
-                                                                                       "display_name": "Mozdok",
-                                                                                                 "id": 1,
-                                                                                               "text": "08"
-                                                                                   }, {
-                                                                                            "channel": 22,
-                                                                                          "direction": 82.763916,
-                                                                                       "display_name": "Mozdok",
-                                                                                                 "id": 2,
-                                                                                               "text": "26"
-                                                                                   } ],
-                                                             "selectedRunwaySide": "08",
-                                                                          "speed": 790,
-                                                                           "type": "Airdrome",
-                                                                      "unit_name": "Mozdok",
-                                                                              "x": -83450.417969,
-                                                                              "y": 834461.78125
-                                                         }, {
-                                                                            "alt": 0,
-                                                                             "id": "ARD4",
-                                                                           "name": "Kutaisi",
-                                                                           "note": "",
-                                                                            "num": "ARD2",
-                                                                        "runways": [ {
-                                                                                            "channel": -1,
-                                                                                          "direction": -105.999085,
-                                                                                       "display_name": "Kutaisi",
-                                                                                                 "id": 1,
-                                                                                               "text": "07"
-                                                                                   } ],
-                                                             "selectedRunwaySide": "07",
-                                                                          "speed": 790,
-                                                                           "type": "Airdrome",
-                                                                      "unit_name": "Kutaisi",
-                                                                              "x": -284887.375,
-                                                                              "y": 683858.71875
-                                                         }, {
-                                                                            "alt": 0,
                                                                              "id": "ARD5",
                                                                            "name": "Sochi-Adler",
                                                                            "note": "",
-                                                                            "num": "ARD3",
+                                                                            "num": "ARD1",
                                                                         "runways": [ {
                                                                                             "channel": -1,
                                                                                           "direction": -117.994619,
@@ -102,6 +58,56 @@
                                                                       "unit_name": "Sochi-Adler",
                                                                               "x": -164496.46875,
                                                                               "y": 462218.921875
+                                                         }, {
+                                                                            "alt": 0,
+                                                                             "id": "ARD6",
+                                                                           "name": "Gudauta",
+                                                                           "note": "",
+                                                                            "num": "ARD2",
+                                                                        "runways": [ {
+                                                                                            "channel": -1,
+                                                                                          "direction": -361,
+                                                                                       "display_name": "Gudauta",
+                                                                                                 "id": 1,
+                                                                                               "text": "15"
+                                                                                   }, {
+                                                                                            "channel": -1,
+                                                                                          "direction": -361,
+                                                                                       "display_name": "Gudauta",
+                                                                                                 "id": 2,
+                                                                                               "text": "33"
+                                                                                   } ],
+                                                             "selectedRunwaySide": "15",
+                                                                          "speed": 790,
+                                                                           "type": "Airdrome",
+                                                                      "unit_name": "Gudauta",
+                                                                              "x": -196710.085938,
+                                                                              "y": 516451.6875
+                                                         }, {
+                                                                            "alt": 0,
+                                                                             "id": "ARD7",
+                                                                           "name": "Sukhumi-Babushara",
+                                                                           "note": "",
+                                                                            "num": "ARD3",
+                                                                        "runways": [ {
+                                                                                            "channel": -1,
+                                                                                          "direction": -361,
+                                                                                       "display_name": "Sukhumi-Babushara",
+                                                                                                 "id": 1,
+                                                                                               "text": "12"
+                                                                                   }, {
+                                                                                            "channel": -1,
+                                                                                          "direction": -361,
+                                                                                       "display_name": "Sukhumi-Babushara",
+                                                                                                 "id": 2,
+                                                                                               "text": "30"
+                                                                                   } ],
+                                                             "selectedRunwaySide": "12",
+                                                                          "speed": 790,
+                                                                           "type": "Airdrome",
+                                                                      "unit_name": "Sukhumi-Babushara",
+                                                                              "x": -220592.328125,
+                                                                              "y": 564391.96875
                                                          } ],
                                                  "CMDS": {
                                                                "idxFlareBurstCountI": 1,
@@ -116,52 +122,62 @@
                                                                          "alt": 2000,
                                                                           "id": "PNT1",
                                                                         "name": "PNT1",
-                                                                        "note": "Sukhumi",
+                                                                        "note": "Sochi",
                                                                          "num": "PNT1",
                                                                        "speed": 790,
                                                              "terrainAltitude": 13,
-                                                                           "x": -220547.48282685,
-                                                                           "y": 564300.08009767
+                                                                           "x": -164528.97904917,
+                                                                           "y": 462154.95381698
                                                          }, {
                                                                          "alt": 2000,
                                                                           "id": "PNT2",
                                                                         "name": "PNT2",
-                                                                        "note": "IP",
+                                                                        "note": "WP3-1",
                                                                          "num": "PNT2",
                                                                        "speed": 790,
                                                              "terrainAltitude": 649,
-                                                                           "x": -187754.50219638,
-                                                                           "y": 612328.46104462
+                                                                           "x": -85064.386244593,
+                                                                           "y": 524037.43564618
                                                          }, {
                                                                          "alt": 2000,
                                                                           "id": "PNT3",
                                                                         "name": "PNT3",
-                                                                        "note": "MID",
+                                                                        "note": "WP3-2",
                                                                          "num": "PNT3",
                                                                        "speed": 790,
                                                              "terrainAltitude": 881,
-                                                                           "x": -112028.45116233,
-                                                                           "y": 618116.91994463
+                                                                           "x": -56590.389478874,
+                                                                           "y": 475347.14261063
                                                          }, {
                                                                          "alt": 2000,
                                                                           "id": "PNT4",
                                                                         "name": "PNT4",
-                                                                        "note": "Impact",
+                                                                        "note": "WP3-3",
                                                                          "num": "PNT4",
                                                                        "speed": 790,
                                                              "terrainAltitude": 635,
-                                                                           "x": -62609.744740166,
-                                                                           "y": 641119.1452715
+                                                                           "x": -54463.469386068,
+                                                                           "y": 437116.44172846
                                                          }, {
                                                                          "alt": 2000,
                                                                           "id": "PNT5",
                                                                         "name": "PNT5",
-                                                                        "note": "Nalchik",
+                                                                        "note": "WP3-4",
                                                                          "num": "PNT5",
                                                                        "speed": 790,
                                                              "terrainAltitude": 430,
-                                                                           "x": -124876.11389272,
-                                                                           "y": 760507.87824792
+                                                                           "x": -113680.35022403,
+                                                                           "y": 407339.09209032
+                                                         }, {
+                                                                         "alt": 2000,
+                                                                          "id": "PNT6",
+                                                                        "name": "PNT6",
+                                                                        "note": "Sochi",
+                                                                         "num": "PNT6",
+                                                                       "speed": 790,
+                                                             "terrainAltitude": 30,
+                                                                           "x": -164529.47278576,
+                                                                           "y": 462156.44310125
                                                          } ],
                                                 "Radio": {
                                                               "Channel_0": {
@@ -256,12 +272,12 @@
                                                                     "num": "PNT1",
                                                                   "speed": 790,
                                                              "speed_type": 1,
-                                                                      "x": -220547.48282685,
-                                                                      "y": 564300.08009767
+                                                                      "x": -164528.97904917,
+                                                                      "y": 462154.95381698
                                                          }, {
                                                                     "alt": 2000,
                                                                "alt_type": 1,
-                                                                    "ETA": 36073.615022482,
+                                                                    "ETA": 36127.4908096,
                                                                "FIX_Time": false,
                                                                      "id": "PNT2",
                                                                    "name": "PNT2",
@@ -269,12 +285,12 @@
                                                                     "num": "PNT2",
                                                                   "speed": 790,
                                                              "speed_type": 1,
-                                                                      "x": -187754.50219638,
-                                                                      "y": 612328.46104462
+                                                                      "x": -85064.386244593,
+                                                                      "y": 524037.43564618
                                                          }, {
                                                                     "alt": 2000,
                                                                "alt_type": 1,
-                                                                    "ETA": 36169.750417624,
+                                                                    "ETA": 36198.8894215,
                                                                "FIX_Time": false,
                                                                      "id": "PNT3",
                                                                    "name": "PNT3",
@@ -282,12 +298,12 @@
                                                                     "num": "PNT3",
                                                                   "speed": 790,
                                                              "speed_type": 1,
-                                                                      "x": -112028.45116233,
-                                                                      "y": 618116.91994463
+                                                                      "x": -56590.389478874,
+                                                                      "y": 475347.14261063
                                                          }, {
                                                                     "alt": 2000,
                                                                "alt_type": 1,
-                                                                    "ETA": 36238.750078752,
+                                                                    "ETA": 36247.357547478,
                                                                "FIX_Time": false,
                                                                      "id": "PNT4",
                                                                    "name": "PNT4",
@@ -295,12 +311,12 @@
                                                                     "num": "PNT4",
                                                                   "speed": 790,
                                                              "speed_type": 1,
-                                                                      "x": -62609.744740166,
-                                                                      "y": 641119.1452715
+                                                                      "x": -54463.469386068,
+                                                                      "y": 437116.44172846
                                                          }, {
                                                                     "alt": 2000,
                                                                "alt_type": 1,
-                                                                    "ETA": 36409.193811396,
+                                                                    "ETA": 36331.259061603,
                                                                "FIX_Time": false,
                                                                      "id": "PNT5",
                                                                    "name": "PNT5",
@@ -308,8 +324,21 @@
                                                                     "num": "PNT5",
                                                                   "speed": 790,
                                                              "speed_type": 1,
-                                                                      "x": -124876.11389272,
-                                                                      "y": 760507.87824792
+                                                                      "x": -113680.35022403,
+                                                                      "y": 407339.09209032
+                                                         }, {
+                                                                    "alt": 2000,
+                                                               "alt_type": 1,
+                                                                    "ETA": 36425.904820302,
+                                                               "FIX_Time": false,
+                                                                     "id": "PNT6",
+                                                                   "name": "PNT6",
+                                                                   "note": "",
+                                                                    "num": "PNT6",
+                                                                  "speed": 790,
+                                                             "speed_type": 1,
+                                                                      "x": -164529.47278576,
+                                                                      "y": 462156.44310125
                                                          } ],
                                                  "RSBN": [ {
                                                                  "alt": 0,
@@ -349,7 +378,7 @@
                                                                    "y": 458079.46875
                                                          } ],
                                           "TargetPoint": {
-                                                             "altitude": 13,
+                                                             "altitude": 30,
                                                                  "name": "PNT1",
                                                                     "x": -220547.48282685,
                                                                     "y": 564300.08009767
@@ -394,7 +423,76 @@
                                                                                     "modulation": 1
                                                                                 }
                                                          },
-                                            "Airdromes": [  ],
+                                            "Airdromes": [ {
+                                                                            "alt": 0,
+                                                                             "id": "ARD7",
+                                                                           "name": "Sukhumi-Babushara",
+                                                                           "note": "",
+                                                                            "num": "ARD1",
+                                                                        "runways": [ {
+                                                                                            "channel": -1,
+                                                                                          "direction": -361,
+                                                                                       "display_name": "Sukhumi-Babushara",
+                                                                                                 "id": 1,
+                                                                                               "text": "12"
+                                                                                   }, {
+                                                                                            "channel": -1,
+                                                                                          "direction": -361,
+                                                                                       "display_name": "Sukhumi-Babushara",
+                                                                                                 "id": 2,
+                                                                                               "text": "30"
+                                                                                   } ],
+                                                             "selectedRunwaySide": "12",
+                                                                          "speed": 790,
+                                                                           "type": "Airdrome",
+                                                                      "unit_name": "Sukhumi-Babushara",
+                                                                              "x": -220592.328125,
+                                                                              "y": 564391.96875
+                                                         }, {
+                                                                            "alt": 0,
+                                                                             "id": "ARD8",
+                                                                           "name": "Nalchik",
+                                                                           "note": "",
+                                                                            "num": "ARD2",
+                                                                        "runways": [ {
+                                                                                            "channel": -1,
+                                                                                          "direction": 55.506625,
+                                                                                       "display_name": "Nalchik",
+                                                                                                 "id": 1,
+                                                                                               "text": "24"
+                                                                                   } ],
+                                                             "selectedRunwaySide": "24",
+                                                                          "speed": 790,
+                                                                           "type": "Airdrome",
+                                                                      "unit_name": "Nalchik",
+                                                                              "x": -124932.167279,
+                                                                              "y": 760421.182617
+                                                         }, {
+                                                                            "alt": 0,
+                                                                             "id": "ARD9",
+                                                                           "name": "Mozdok",
+                                                                           "note": "",
+                                                                            "num": "ARD3",
+                                                                        "runways": [ {
+                                                                                            "channel": 22,
+                                                                                          "direction": -97.236068,
+                                                                                       "display_name": "Mozdok",
+                                                                                                 "id": 1,
+                                                                                               "text": "08"
+                                                                                   }, {
+                                                                                            "channel": 22,
+                                                                                          "direction": 82.763916,
+                                                                                       "display_name": "Mozdok",
+                                                                                                 "id": 2,
+                                                                                               "text": "26"
+                                                                                   } ],
+                                                             "selectedRunwaySide": "08",
+                                                                          "speed": 790,
+                                                                           "type": "Airdrome",
+                                                                      "unit_name": "Mozdok",
+                                                                              "x": -83450.417969,
+                                                                              "y": 834461.78125
+                                                         } ],
                                                  "CMDS": {
                                                                "idxFlareBurstCountI": 1,
                                                               "idxFlareBurstCountII": 1,
@@ -404,7 +502,67 @@
                                                              "idxFlareSalvoInterval": 1,
                                                                         "LW_indices": [ 1, 1, 1, 1, 1, 1 ]
                                                          },
-                                               "Points": [  ],
+                                               "Points": [ {
+                                                                         "alt": 2000,
+                                                                          "id": "PNT1",
+                                                                        "name": "PNT1",
+                                                                        "note": "Sukhumi",
+                                                                         "num": "PNT1",
+                                                                       "speed": 790,
+                                                             "terrainAltitude": 13,
+                                                                           "x": -220533.16773063,
+                                                                           "y": 564265.81247426
+                                                         }, {
+                                                                         "alt": 2000,
+                                                                          "id": "PNT2",
+                                                                        "name": "PNT2",
+                                                                        "note": "WP4-1",
+                                                                         "num": "PNT2",
+                                                                       "speed": 790,
+                                                             "terrainAltitude": 708,
+                                                                           "x": -188647.06015284,
+                                                                           "y": 608199.53533788
+                                                         }, {
+                                                                         "alt": 2000,
+                                                                          "id": "PNT3",
+                                                                        "name": "PNT3",
+                                                                        "note": "WP4-2",
+                                                                         "num": "PNT3",
+                                                                       "speed": 790,
+                                                             "terrainAltitude": 2437,
+                                                                           "x": -163142.91495948,
+                                                                           "y": 579619.25189128
+                                                         }, {
+                                                                         "alt": 2000,
+                                                                          "id": "PNT4",
+                                                                        "name": "PNT4",
+                                                                        "note": "WP4-3",
+                                                                         "num": "PNT4",
+                                                                       "speed": 790,
+                                                             "terrainAltitude": 1276,
+                                                                           "x": -122035.62640138,
+                                                                           "y": 597578.44523956
+                                                         }, {
+                                                                         "alt": 2000,
+                                                                          "id": "PNT5",
+                                                                        "name": "PNT5",
+                                                                        "note": "WP4-4",
+                                                                         "num": "PNT5",
+                                                                       "speed": 790,
+                                                             "terrainAltitude": 2844,
+                                                                           "x": -167908.8576799,
+                                                                           "y": 585246.38739855
+                                                         }, {
+                                                                         "alt": 2000,
+                                                                          "id": "PNT6",
+                                                                        "name": "PNT6",
+                                                                        "note": "Sukhumi",
+                                                                         "num": "PNT6",
+                                                                       "speed": 790,
+                                                             "terrainAltitude": 13,
+                                                                           "x": -220528.47795482,
+                                                                           "y": 564268.15736216
+                                                         } ],
                                                 "Radio": {
                                                               "Channel_0": {
                                                                                      "freq": 124,
@@ -487,9 +645,128 @@
                                                                                "modulation": 1
                                                                            }
                                                          },
-                                                "Route": [  ],
-                                                 "RSBN": [  ],
-                                          "TargetPoint": [  ],
+                                                "Route": [ {
+                                                                    "alt": 2000,
+                                                               "alt_type": 1,
+                                                                    "ETA": 36000,
+                                                               "FIX_Time": false,
+                                                                     "id": "PNT1",
+                                                                   "name": "PNT1",
+                                                                   "note": "",
+                                                                    "num": "PNT1",
+                                                                  "speed": 790,
+                                                             "speed_type": 1,
+                                                                      "x": -220533.16773063,
+                                                                      "y": 564265.81247426
+                                                         }, {
+                                                                    "alt": 2000,
+                                                               "alt_type": 1,
+                                                                    "ETA": 36068.715593696,
+                                                               "FIX_Time": false,
+                                                                     "id": "PNT2",
+                                                                   "name": "PNT2",
+                                                                   "note": "",
+                                                                    "num": "PNT2",
+                                                                  "speed": 790,
+                                                             "speed_type": 1,
+                                                                      "x": -188647.06015284,
+                                                                      "y": 608199.53533788
+                                                         }, {
+                                                                    "alt": 2000,
+                                                               "alt_type": 1,
+                                                                    "ETA": 36117.203282431,
+                                                               "FIX_Time": false,
+                                                                     "id": "PNT3",
+                                                                   "name": "PNT3",
+                                                                   "note": "",
+                                                                    "num": "PNT3",
+                                                                  "speed": 790,
+                                                             "speed_type": 1,
+                                                                      "x": -163142.91495948,
+                                                                      "y": 579619.25189128
+                                                         }, {
+                                                                    "alt": 2000,
+                                                               "alt_type": 1,
+                                                                    "ETA": 36173.986994875,
+                                                               "FIX_Time": false,
+                                                                     "id": "PNT4",
+                                                                   "name": "PNT4",
+                                                                   "note": "",
+                                                                    "num": "PNT4",
+                                                                  "speed": 790,
+                                                             "speed_type": 1,
+                                                                      "x": -122035.62640138,
+                                                                      "y": 597578.44523956
+                                                         }, {
+                                                                    "alt": 2000,
+                                                               "alt_type": 1,
+                                                                    "ETA": 36234.116015459,
+                                                               "FIX_Time": false,
+                                                                     "id": "PNT5",
+                                                                   "name": "PNT5",
+                                                                   "note": "",
+                                                                    "num": "PNT5",
+                                                                  "speed": 790,
+                                                             "speed_type": 1,
+                                                                      "x": -167908.8576799,
+                                                                      "y": 585246.38739855
+                                                         }, {
+                                                                    "alt": 2000,
+                                                               "alt_type": 1,
+                                                                    "ETA": 36305.821391192,
+                                                               "FIX_Time": false,
+                                                                     "id": "PNT6",
+                                                                   "name": "PNT6",
+                                                                   "note": "",
+                                                                    "num": "PNT6",
+                                                                  "speed": 790,
+                                                             "speed_type": 1,
+                                                                      "x": -220528.47795482,
+                                                                      "y": 564268.15736216
+                                                         } ],
+                                                 "RSBN": [ {
+                                                                 "alt": 0,
+                                                             "channel": 20,
+                                                                  "id": "RSBN7",
+                                                                "name": "Mozdok",
+                                                                "note": "",
+                                                                 "num": "RSBN1",
+                                                               "speed": 790,
+                                                                "type": "RSBN",
+                                                              "unitId": 0,
+                                                                   "x": -83636.195313,
+                                                                   "y": 834226.9375
+                                                         }, {
+                                                                 "alt": 0,
+                                                             "channel": 28,
+                                                                  "id": "RSBN8",
+                                                                "name": "Krymsk",
+                                                                "note": "",
+                                                                 "num": "RSBN2",
+                                                               "speed": 790,
+                                                                "type": "RSBN",
+                                                              "unitId": 0,
+                                                                   "x": -6710.505371,
+                                                                   "y": 294536.875
+                                                         }, {
+                                                                 "alt": 0,
+                                                             "channel": 34,
+                                                                  "id": "RSBN9",
+                                                                "name": "Maykop-Khanskaya",
+                                                                "note": "",
+                                                                 "num": "RSBN3",
+                                                               "speed": 790,
+                                                                "type": "RSBN",
+                                                              "unitId": 0,
+                                                                   "x": -26605.978516,
+                                                                   "y": 458079.46875
+                                                         } ],
+                                          "TargetPoint": {
+                                                             "altitude": 13,
+                                                                 "name": "PNT1",
+                                                                    "x": -220685.91019359,
+                                                                    "y": 564417.53087851
+                                                         },
                                             "Waypoints": [  ],
                                        "WeaponSettings": {
                                                              "trainingMode": false
@@ -530,7 +807,70 @@
                                                                                     "modulation": 1
                                                                                 }
                                                          },
-                                            "Airdromes": [  ],
+                                            "Airdromes": [ {
+                                                                            "alt": 0,
+                                                                             "id": "ARD9",
+                                                                           "name": "Batumi",
+                                                                           "note": "",
+                                                                            "num": "ARD1",
+                                                                        "runways": [ {
+                                                                                            "channel": -1,
+                                                                                          "direction": -54.415131,
+                                                                                       "display_name": "Batumi",
+                                                                                                 "id": 1,
+                                                                                               "text": "13"
+                                                                                   } ],
+                                                             "selectedRunwaySide": "13",
+                                                                          "speed": 790,
+                                                                           "type": "Airdrome",
+                                                                      "unit_name": "Batumi",
+                                                                              "x": -355810.703125,
+                                                                              "y": 617386.1875
+                                                         }, {
+                                                                            "alt": 0,
+                                                                             "id": "ARD10",
+                                                                           "name": "Kutaisi",
+                                                                           "note": "",
+                                                                            "num": "ARD2",
+                                                                        "runways": [ {
+                                                                                            "channel": -1,
+                                                                                          "direction": -105.999085,
+                                                                                       "display_name": "Kutaisi",
+                                                                                                 "id": 1,
+                                                                                               "text": "07"
+                                                                                   } ],
+                                                             "selectedRunwaySide": "07",
+                                                                          "speed": 790,
+                                                                           "type": "Airdrome",
+                                                                      "unit_name": "Kutaisi",
+                                                                              "x": -284887.375,
+                                                                              "y": 683858.71875
+                                                         }, {
+                                                                            "alt": 0,
+                                                                             "id": "ARD11",
+                                                                           "name": "Sukhumi-Babushara",
+                                                                           "note": "",
+                                                                            "num": "ARD3",
+                                                                        "runways": [ {
+                                                                                            "channel": -1,
+                                                                                          "direction": -361,
+                                                                                       "display_name": "Sukhumi-Babushara",
+                                                                                                 "id": 1,
+                                                                                               "text": "12"
+                                                                                   }, {
+                                                                                            "channel": -1,
+                                                                                          "direction": -361,
+                                                                                       "display_name": "Sukhumi-Babushara",
+                                                                                                 "id": 2,
+                                                                                               "text": "30"
+                                                                                   } ],
+                                                             "selectedRunwaySide": "12",
+                                                                          "speed": 790,
+                                                                           "type": "Airdrome",
+                                                                      "unit_name": "Sukhumi-Babushara",
+                                                                              "x": -220592.328125,
+                                                                              "y": 564391.96875
+                                                         } ],
                                                  "CMDS": {
                                                                "idxFlareBurstCountI": 1,
                                                               "idxFlareBurstCountII": 1,
@@ -540,7 +880,57 @@
                                                              "idxFlareSalvoInterval": 1,
                                                                         "LW_indices": [ 1, 1, 1, 1, 1, 1 ]
                                                          },
-                                               "Points": [  ],
+                                               "Points": [ {
+                                                                         "alt": 2000,
+                                                                          "id": "PNT6",
+                                                                        "name": "PNT1",
+                                                                        "note": "Sukhumi",
+                                                                         "num": "PNT1",
+                                                                       "speed": 790,
+                                                             "terrainAltitude": 13,
+                                                                           "x": -220527.36582079,
+                                                                           "y": 564276.5108223
+                                                         }, {
+                                                                         "alt": 2000,
+                                                                          "id": "PNT7",
+                                                                        "name": "PNT2",
+                                                                        "note": "mid",
+                                                                         "num": "PNT2",
+                                                                       "speed": 790,
+                                                             "terrainAltitude": 658,
+                                                                           "x": -187739.58317758,
+                                                                           "y": 612286.42590307
+                                                         }, {
+                                                                         "alt": 2000,
+                                                                          "id": "PNT8",
+                                                                        "name": "PNT3",
+                                                                        "note": "in",
+                                                                         "num": "PNT3",
+                                                                       "speed": 790,
+                                                             "terrainAltitude": 881,
+                                                                           "x": -112020.17016255,
+                                                                           "y": 618120.94583108
+                                                         }, {
+                                                                         "alt": 2000,
+                                                                          "id": "PNT9",
+                                                                        "name": "PNT4",
+                                                                        "note": "bombing",
+                                                                         "num": "PNT4",
+                                                                       "speed": 790,
+                                                             "terrainAltitude": 634,
+                                                                           "x": -62643.416572294,
+                                                                           "y": 641106.55719352
+                                                         }, {
+                                                                         "alt": 2000,
+                                                                          "id": "PNT10",
+                                                                        "name": "PNT5",
+                                                                        "note": "Nalchik",
+                                                                         "num": "PNT5",
+                                                                       "speed": 790,
+                                                             "terrainAltitude": 430,
+                                                                           "x": -124867.18935974,
+                                                                           "y": 760510.21177654
+                                                         } ],
                                                 "Radio": {
                                                               "Channel_0": {
                                                                                      "freq": 124,
@@ -623,9 +1013,115 @@
                                                                                "modulation": 1
                                                                            }
                                                          },
-                                                "Route": [  ],
-                                                 "RSBN": [  ],
-                                          "TargetPoint": [  ],
+                                                "Route": [ {
+                                                                    "alt": 2000,
+                                                               "alt_type": 1,
+                                                                    "ETA": 36000,
+                                                               "FIX_Time": false,
+                                                                     "id": "PNT6",
+                                                                   "name": "PNT1",
+                                                                   "note": "",
+                                                                    "num": "PNT1",
+                                                                  "speed": 790,
+                                                             "speed_type": 1,
+                                                                      "x": -220527.36582079,
+                                                                      "y": 564276.5108223
+                                                         }, {
+                                                                    "alt": 2000,
+                                                               "alt_type": 1,
+                                                                    "ETA": 36073.592008719,
+                                                               "FIX_Time": false,
+                                                                     "id": "PNT7",
+                                                                   "name": "PNT2",
+                                                                   "note": "",
+                                                                    "num": "PNT2",
+                                                                  "speed": 790,
+                                                             "speed_type": 1,
+                                                                      "x": -187739.58317758,
+                                                                      "y": 612286.42590307
+                                                         }, {
+                                                                    "alt": 2000,
+                                                               "alt_type": 1,
+                                                                    "ETA": 36169.723487561,
+                                                               "FIX_Time": false,
+                                                                     "id": "PNT8",
+                                                                   "name": "PNT3",
+                                                                   "note": "",
+                                                                    "num": "PNT3",
+                                                                  "speed": 790,
+                                                             "speed_type": 1,
+                                                                      "x": -112020.17016255,
+                                                                      "y": 618120.94583108
+                                                         }, {
+                                                                    "alt": 2000,
+                                                               "alt_type": 1,
+                                                                    "ETA": 36238.666129273,
+                                                               "FIX_Time": false,
+                                                                     "id": "PNT9",
+                                                                   "name": "PNT4",
+                                                                   "note": "",
+                                                                    "num": "PNT4",
+                                                                  "speed": 790,
+                                                             "speed_type": 1,
+                                                                      "x": -62643.416572294,
+                                                                      "y": 641106.55719352
+                                                         }, {
+                                                                    "alt": 2000,
+                                                               "alt_type": 1,
+                                                                    "ETA": 36409.101684617,
+                                                               "FIX_Time": false,
+                                                                     "id": "PNT10",
+                                                                   "name": "PNT5",
+                                                                   "note": "",
+                                                                    "num": "PNT5",
+                                                                  "speed": 790,
+                                                             "speed_type": 1,
+                                                                      "x": -124867.18935974,
+                                                                      "y": 760510.21177654
+                                                         } ],
+                                                 "RSBN": [ {
+                                                                 "alt": 0,
+                                                             "channel": 20,
+                                                                  "id": "RSBN7",
+                                                                "name": "Mozdok",
+                                                                "note": "",
+                                                                 "num": "RSBN1",
+                                                               "speed": 790,
+                                                                "type": "RSBN",
+                                                              "unitId": 0,
+                                                                   "x": -83636.195313,
+                                                                   "y": 834226.9375
+                                                         }, {
+                                                                 "alt": 0,
+                                                             "channel": 28,
+                                                                  "id": "RSBN8",
+                                                                "name": "Krymsk",
+                                                                "note": "",
+                                                                 "num": "RSBN2",
+                                                               "speed": 790,
+                                                                "type": "RSBN",
+                                                              "unitId": 0,
+                                                                   "x": -6710.505371,
+                                                                   "y": 294536.875
+                                                         }, {
+                                                                 "alt": 0,
+                                                             "channel": 34,
+                                                                  "id": "RSBN9",
+                                                                "name": "Maykop-Khanskaya",
+                                                                "note": "",
+                                                                 "num": "RSBN3",
+                                                               "speed": 790,
+                                                                "type": "RSBN",
+                                                              "unitId": 0,
+                                                                   "x": -26605.978516,
+                                                                   "y": 458079.46875
+                                                         } ],
+                                          "TargetPoint": {
+                                                             "altitude": 13,
+                                                                 "name": "PNT1",
+                                                                    "x": -220527.36582079,
+                                                                    "y": 564276.5108223
+                                                         },
                                             "Waypoints": [  ],
                                        "WeaponSettings": {
                                                              "trainingMode": false
