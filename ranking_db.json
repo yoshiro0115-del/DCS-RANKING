@@ -1,8 +1,18 @@
-﻿{
-    "mId":  "124",
-    "pName":  "taktak1956",
-    "acType":  "FA-18C_hornet",
-    "score":  100,
-    "time":  159.1,
-    "rank":  "S"
-}
+﻿[
+    {
+        "mId":  "124",
+        "pName":  "taktak1956",
+        "acType":  "FA-18C_hornet",
+        "score":  100,
+        "time":  159.1,
+        "rank":  "S"
+    },
+    {
+        "mId":  "122",
+        "pName":  "taktak1956",
+        "acType":  "FA-18C_hornet",
+        "score":  100,
+        "time":  180.02,
+        "rank":  "S"
+    }
+]
