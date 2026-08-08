@@ -134,5 +134,13 @@
         "score":  15,
         "time":  0,
         "rank":  "S"
+    },
+    {
+        "mId":  "122",
+        "pName":  "TOFU",
+        "acType":  "F-14B",
+        "score":  100,
+        "time":  180.02,
+        "rank":  "S"
     }
 ]
