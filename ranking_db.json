@@ -282,14 +282,6 @@
     {
         "mId":  "140",
         "pName":  "Pompom",
-        "acType":  "JPN",
-        "score":  null,
-        "time":  null,
-        "rank":  "Ti:231.51"
-    },
-    {
-        "mId":  "140",
-        "pName":  "Pompom",
         "acType":  "AH-64D_BLK_II",
         "score":  81,
         "time":  83.04,

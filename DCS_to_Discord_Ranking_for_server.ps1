@@ -122,9 +122,18 @@ Get-Content $logFile -Wait -Tail 0 | ForEach-Object {
         $parts = $data.Split("|")
         
         if ($parts.Count -ge 6) {
-            $mId = ($parts[0] -replace "Mi:", "").Trim(); $pName = ($parts[1] -replace "Pi:", "").Trim()
-            $acType = ($parts[2] -replace "AF:", "").Trim(); $score = [int]($parts[3] -replace "SC:", "").Trim()
-            $time = [double]($parts[4] -replace "Ti:", "").Trim(); $rank = ($parts[5] -replace "Ra:", "").Trim()
+# --- プレフィックスベースで安全に値を変数に割り当てる ---
+            $mId = ""; $pName = ""; $acType = ""; $score = 0; $time = 0.0; $rank = ""
+            
+            foreach ($part in $parts) {
+                $trimmed =$part.Trim()
+                if ($trimmed -match "^Mi:(.*)") { $mId =$Matches[1].Trim() }
+                elseif ($trimmed -match "^Pi:(.*)") { $pName =$Matches[1].Trim() }
+                elseif ($trimmed -match "^AF:(.*)") { $acType =$Matches[1].Trim() }
+                elseif ($trimmed -match "^SC:(.*)") { $score = [int]$Matches[1].Trim() }
+                elseif ($trimmed -match "^Ti:(.*)") { $time = [double]$Matches[1].Trim() }
+                elseif ($trimmed -match "^Ra:(.*)") { $rank =$Matches[1].Trim() }
+            }
             $mName = if ($missionMap.ContainsKey($mId)) { $missionMap[$mId] } else { "Mission $mId" }
 
             $pColor = if ($rank -like "*S*") { 16766720 } elseif ($rank -like "*A*") { 15548997 } else { 3447003 }
