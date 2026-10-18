@@ -286,5 +286,13 @@
         "score":  81,
         "time":  83.04,
         "rank":  "B"
+    },
+    {
+        "mId":  "122",
+        "pName":  "george1013",
+        "acType":  "F-16C_50",
+        "score":  100,
+        "time":  180.02,
+        "rank":  "S"
     }
 ]
