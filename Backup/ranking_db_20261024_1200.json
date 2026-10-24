@@ -254,5 +254,61 @@
         "score":  0,
         "time":  325.26,
         "rank":  "D"
+    },
+    {
+        "mId":  "135",
+        "pName":  "ZRyu",
+        "acType":  "FA-18C_hornet",
+        "score":  81,
+        "time":  142.45,
+        "rank":  "B"
+    },
+    {
+        "mId":  "133",
+        "pName":  "ZRyu",
+        "acType":  "FA-18C_hornet",
+        "score":  0,
+        "time":  212.05,
+        "rank":  "D"
+    },
+    {
+        "mId":  "140",
+        "pName":  "Baymax",
+        "acType":  "FA-18C_hornet",
+        "score":  1,
+        "time":  139.1,
+        "rank":  "D"
+    },
+    {
+        "mId":  "140",
+        "pName":  "Pompom",
+        "acType":  "AH-64D_BLK_II",
+        "score":  81,
+        "time":  83.04,
+        "rank":  "B"
+    },
+    {
+        "mId":  "122",
+        "pName":  "george1013",
+        "acType":  "F-16C_50",
+        "score":  100,
+        "time":  180.02,
+        "rank":  "S"
+    },
+    {
+        "mId":  "154",
+        "pName":  "TOFU",
+        "acType":  "F-14BU",
+        "score":  33,
+        "time":  399.72,
+        "rank":  "D"
+    },
+    {
+        "mId":  "160",
+        "pName":  "NUNO",
+        "acType":  "F-16C_50",
+        "score":  2,
+        "time":  162.18,
+        "rank":  "C"
     }
 ]
