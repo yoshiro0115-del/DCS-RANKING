@@ -22,7 +22,7 @@ $missionMap = @{
     "145" = "Shooting boats"; "146" = "Shooting TGT along river"; "147" = "Airport Attack"; "148" = "SEAD";
 
     "150" = "ACM vs F-86F"; "151" = "ACM vs F-4E"; "152" = "ACM vs F-5E"; "153" = "ACM vs F-16C"; "154" = "ACM vs F/A-18C"
-    "155" = "ACM vs F-14B"; "156" = "ACM vs F-15C"; "157" = "ACM vs Mig-29S";
+    "155" = "ACM vs F-14B"; "156" = "ACM vs F-15C"; "157" = "ACM vs Mig-29S"; "158" = "ACM vs Su-30";
     "160" = "C-BFM vs F-4E"; "161" = "C-BFM vs F-5E"; "162" = "C-BFM vs F-16C"; "163" = "C-BFM vs F-14B"; "164" = "C-BFM vs F-15C";
     "165" = "C-BFM vs Su-27"; "168" = "C-BFM vs HAWK";
     "190" = "Diffence CAS"; "192" = "JTAC CAS";"193" = "SCAR"; "194" = "TOT_Bombing";  "195" = "Support SEAD";
