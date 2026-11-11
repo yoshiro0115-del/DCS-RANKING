@@ -398,5 +398,13 @@
         "score":  0,
         "time":  339.72,
         "rank":  "D"
+    },
+    {
+        "mId":  "153",
+        "pName":  "TOFU",
+        "acType":  "F-16C_50",
+        "score":  100,
+        "time":  122.03,
+        "rank":  "S"
     }
 ]
