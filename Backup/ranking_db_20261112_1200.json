@@ -302,5 +302,109 @@
         "score":  33,
         "time":  399.72,
         "rank":  "D"
+    },
+    {
+        "mId":  "160",
+        "pName":  "NUNO",
+        "acType":  "F-16C_50",
+        "score":  2,
+        "time":  162.18,
+        "rank":  "C"
+    },
+    {
+        "mId":  "148",
+        "pName":  "TOFU",
+        "acType":  "F-16C_50",
+        "score":  0,
+        "time":  595.74,
+        "rank":  "D"
+    },
+    {
+        "mId":  "126",
+        "pName":  "TOFU",
+        "acType":  "F-14BU",
+        "score":  100,
+        "time":  200.09,
+        "rank":  "S"
+    },
+    {
+        "mId":  "148",
+        "pName":  "TOFU",
+        "acType":  "FA-18C_hornet",
+        "score":  100,
+        "time":  526.21,
+        "rank":  "S"
+    },
+    {
+        "mId":  "155",
+        "pName":  "TOFU",
+        "acType":  "F-16C_50",
+        "score":  100,
+        "time":  177.3,
+        "rank":  "S"
+    },
+    {
+        "mId":  "153",
+        "pName":  "Zuikaku",
+        "acType":  "M-2000C",
+        "score":  42,
+        "time":  379.88,
+        "rank":  "D"
+    },
+    {
+        "mId":  "160",
+        "pName":  "Marron",
+        "acType":  "FA-18C_hornet",
+        "score":  6,
+        "time":  87.69,
+        "rank":  "B"
+    },
+    {
+        "mId":  "151",
+        "pName":  "Marron",
+        "acType":  "F-15ESE",
+        "score":  100,
+        "time":  197.8,
+        "rank":  "S"
+    },
+    {
+        "mId":  "156",
+        "pName":  "TOFU",
+        "acType":  "F-16C_50",
+        "score":  100,
+        "time":  196.22,
+        "rank":  "S"
+    },
+    {
+        "mId":  "140",
+        "pName":  "TOFU",
+        "acType":  "A-10C_2",
+        "score":  100,
+        "time":  60.97,
+        "rank":  "S"
+    },
+    {
+        "mId":  "133",
+        "pName":  "tengoku",
+        "acType":  "FA-18C_hornet",
+        "score":  0,
+        "time":  786.18,
+        "rank":  "D"
+    },
+    {
+        "mId":  "144",
+        "pName":  "Milkqky",
+        "acType":  "F-16C_50",
+        "score":  0,
+        "time":  339.72,
+        "rank":  "D"
+    },
+    {
+        "mId":  "153",
+        "pName":  "TOFU",
+        "acType":  "F-16C_50",
+        "score":  100,
+        "time":  122.03,
+        "rank":  "S"
     }
 ]
